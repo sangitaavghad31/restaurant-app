@@ -1,34 +1,40 @@
 .header {
-  background-color: #f1f3f4;
+  background-color: brown;
   padding: 10px 20px;
+  height: 50px;
 }
 
-.menu {
-  display: flex;
-  gap: 20px;
+.container{
+    margin-top: 1%;
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 150px;
 }
-
-.menu-item {
-  position: relative;
-  cursor: pointer;
-  font-weight: 500;
+.cart-button{
+    background-color: darkorange;
+    width: 100%;
+    display: flex;
+    border-radius: 20px;
+    padding-left: 10px 10px;
 }
-
-.dropdown {
-  position: absolute;
-  top: 30px;
-  left: 0;
-  background: white;
-  border: 1px solid #ccc;
-  min-width: 200px;
-  z-index: 100;
+.cart-label{
+    margin: 5px;
+    color: white;
+    font-weight: 800;
 }
-
-.dropdown div {
-  padding: 8px;
-  cursor: pointer;
+.total-items{
+    border-radius: 50%;
+    width: 15px;
+    border: 2px solid brown;
+    background-color: brown;
+    color: white;
+    margin: 5px;
 }
-
-.dropdown div:hover {
-  background: #eee;
+.heading-label{
+    margin-top: 1%;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
 }
