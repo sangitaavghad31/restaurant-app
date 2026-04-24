@@ -1,0 +1,17 @@
+.meal-item-container{
+    padding-left: 30px;
+    width: 70%;
+    color: black;
+}
+
+.meal-description{
+    font-size: 14px;
+    font-style: italic;
+    color: black;
+}
+.meal-price{
+    font-weight: bold;
+    font-size: 18px;
+    color: darkgoldenrod;
+
+}
