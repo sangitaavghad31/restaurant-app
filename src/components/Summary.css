@@ -6,12 +6,13 @@
   color: white;
   justify-content: center;
   align-items: center;
-  width: 700px;
-  height: 300px;
+  width: 60%;
+  height: 70%;
   border-radius: 10px;
   text-align: center;
   margin-top: 20%;
   margin-left: 20%;
+  margin-right: 20% ;
 }
 h1{
     color: azure;
