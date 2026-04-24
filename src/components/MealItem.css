@@ -3,7 +3,13 @@
     width: 70%;
     color: black;
 }
-
+.description-name-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* correct */
+  align-items: flex-end; 
+  width: 100%;
+}
 .meal-description{
     font-size: 14px;
     font-style: italic;
@@ -14,4 +20,34 @@
     font-size: 18px;
     color: darkgoldenrod;
 
+}
+.badge {
+  border-radius: 50%;
+  border: 2px solid black;
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8px;
+}
+.btn-container{
+    float: right;
+    background-color: brown;
+    border: 2px solid brown;
+    border-radius: 20px;
+    width: 70px;
+}
+.add-btn{
+    width: 100%;
+    background-color: brown;
+    border: 2px solid brown;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+
+}
+.total-amount{ 
+    color: green;
+    font-weight: "bold"
 }
