@@ -8,8 +8,8 @@ function Summary(props){
     
     return (<div className="summary-container">
             <h1>{label}</h1>
-            <span>{summary_1}</span>
-            <span>{summary_2}</span>
+            <p>{summary_1}</p>
+            <p>{summary_2}</p>
         </div>)
 }
 

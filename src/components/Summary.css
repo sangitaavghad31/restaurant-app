@@ -1,15 +1,23 @@
 .summary-container{
-    display: flex;
-    background-color: grey;
-    color: white;
-    justify-content: center;
-    align-items: center;
-    width: 1000px;
-    height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: grey;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  height: 300px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20%;
+  margin-left: 20%;
 }
 h1{
     color: azure;
 }
-span{
+p{
     color: azure;
+    align-content: center;
+    align-self: center;
 }
