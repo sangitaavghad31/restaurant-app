@@ -11,7 +11,7 @@ function MealItem(props) {
   const totalAmount = count * props.meal.price;
 
   return (
-    <div className="meal-item-container">
+    <div className="meal-item-container" key={props.key}> 
       <h5>{props.meal.name}</h5>
 
       <div className="description-name-container">

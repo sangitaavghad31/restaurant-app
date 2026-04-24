@@ -1,9 +1,11 @@
-import React from "react";
+import React,{useState} from "react";
 import Header from "./components/header/Header";
 import Summary from "./components/Summary";
 import Meals from "./components/Meals";
+import Cart from './components/Cart/Cart';
 
 function App() {
+
   let lists = [
     {
       name: "Paneer Button Masala(medium spicy)",
@@ -27,10 +29,12 @@ function App() {
   ]
   return (
     <div>
+      <Cart />
       <Header/>
       <div className="Summary-main-container">
         <Summary/>
         <Meals meals={lists}/>
+        {}
       </div>
     </div>
   );

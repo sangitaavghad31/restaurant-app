@@ -5,9 +5,9 @@ import "./Meals.css";
 function Meals(props){
 
     return(<div className="meal-container">
-    {props.meals.map(meal=>{
+    {props.meals.map((meal, index)=>{
         return<>
-            <MealItem meal={meal}/>
+            <MealItem key={index} meal={meal}/>
             <hr/>   
         </>
     })}
